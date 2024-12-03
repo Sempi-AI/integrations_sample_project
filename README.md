@@ -118,7 +118,7 @@ This will start both marketplace mock servers (ports 3001 and 3002)
 ```json
 {
   "name": "Test Product",
-  "price": 19_99,
+  "price": 1999,
   "sku": "TEST123"
 }
 ```
