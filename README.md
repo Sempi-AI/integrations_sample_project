@@ -74,7 +74,6 @@ Two-step process required:
 ```
 
 Note: If publishing fails, the inventory item remains in the system and can be retried. However, a new publish attempt must wait at least 2 seconds after a failed attempt.
-```
 
 ### Technical Requirements
 1. Use Ruby on Rails
@@ -119,7 +118,7 @@ This will start both marketplace mock servers (ports 3001 and 3002)
 ```json
 {
   "name": "Test Product",
-  "price": 1999,
+  "price": 19_99,
   "sku": "TEST123"
 }
 ```

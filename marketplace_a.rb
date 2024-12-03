@@ -25,3 +25,8 @@ post '/api/products' do
     halt 400, { error: "Invalid JSON" }.to_json
   end
 end
+
+get '/health' do
+  content_type :json
+  { status: "ok" }.to_json
+end
